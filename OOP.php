@@ -21,12 +21,7 @@ class Book {
 
     // TODO: Add borrowBook method
     function borrowBook(){
-        if($this->availableCopies > 0){
-            $this->availableCopies--;
-            return true;
-        } else {
-            return false;
-        }
+        $this->availableCopies--;
     }
 
     // TODO: Add returnBook method

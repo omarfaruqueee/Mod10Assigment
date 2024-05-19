@@ -68,5 +68,5 @@ class Member {
     $member2->borrowBook($book2);
 
 // TODO: Print Available Copies with their names:
-print "Available Copies of '{$book1->getTitle()}': {$book1->getAvailableCopies()}<br>";
-print "Available Copies of '{$book2->getTitle()}': {$book2->getAvailableCopies()}<br>";
+echo "Available Copies of '{$book1->getTitle()}': {$book1->getAvailableCopies()}<br>";
+echo "Available Copies of '{$book2->getTitle()}': {$book2->getAvailableCopies()}<br>";
